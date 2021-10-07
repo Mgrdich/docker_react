@@ -8,10 +8,12 @@ WORKDIR /usr/app
 COPY ./package.json ./
 
 # install some dependencies
-RUN npm install
+RUN yarn
 
 # copy rest of the files
 COPY ./ ./
 
+EXPOSE 3000
+
 # set a default command
-CMD ["npm","run","start"]
+CMD ["yarn","start"]
