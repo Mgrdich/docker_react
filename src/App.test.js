@@ -11,3 +11,8 @@ test('renders learn react link', () => {
 test('some other test', () => {
   expect(1).toBe(1);
 });
+
+
+test('some other third test', () => {
+  expect(1).toBe(1);
+});
