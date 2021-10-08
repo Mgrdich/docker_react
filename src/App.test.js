@@ -14,5 +14,10 @@ test('some other test', () => {
 
 
 test('some other third test', () => {
-  expect(1).toBe(1);
+  expect(2).toBe(2);
+});
+
+
+test('some other forth test', () => {
+  expect(3).toBe(3);
 });
