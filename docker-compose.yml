@@ -6,4 +6,4 @@ services:
       dockerfile: Dockerfile.dev
     volumes:
       - /usr/app/node_modules
-      - .:/app
+      - .:/usr/app
